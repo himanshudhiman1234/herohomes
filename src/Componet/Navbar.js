@@ -35,22 +35,22 @@ function Navbar() {
       <ul class="navbar-nav">
         <li class="nav-item active">
           
-        <Link  class="nav-link"  to="/">Home</Link>
+        <Link  class="nav-link text-center"  to="/">Home</Link>
 
           {/* <a href="/">Home <span class="sr-only">(current)</span></a> */}
         </li>
         <li class="nav-item">
-        <Link  class="nav-link" to="/about">About</Link>
+        <Link  class="nav-link  text-center" to="/about">About</Link>
           {/* <a href="/about">About</a> */}
         </li>
         <li class="nav-item">
-        <Link  class="nav-link"  to="/gallery">Gallery</Link>
+        <Link  class="nav-link  text-center"  to="/gallery">Gallery</Link>
 
           {/* <a class="nav-link" href="/gallery">Gallery</a> */}
         </li>
-        <li class="nav-item">
+        <li class="nav-item ">
           {/* <a class="nav-link" href="/contact"></a> */}
-          <Link  class="nav-link"  to="/contact">Contact</Link>
+          <Link  class="nav-link text-center"  to="/contact">Contact</Link>
         </li>
       </ul>
     </div>
