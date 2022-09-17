@@ -24,7 +24,7 @@ function Footer() {
                     <div class="col-md-6">
                     <Link   className="btn btn-link footer-in"  to="/about">About Us</Link>
                     <Link   className="btn btn-link footer-in"  to="/contact">Contact Us</Link>
-                    <Link   className="btn btn-link footer-in"  to="/Gallery">Gallery</Link>
+                    <Link   className="btn btn-link footer-in"  to="/gallery">Gallery</Link>
 
                     {/* <a className="btn btn-link footer-in" href="/about">About Us</a> */}
                     {/* <a className="btn btn-link footer-in" href="/contact">Contact Us</a> */}
