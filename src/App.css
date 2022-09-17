@@ -1,6 +1,12 @@
 h1{
   text-align: center;
 }
+.height{
+  height: 300px !important;
+}
+.logs{
+  height:120px !important;
+}
 .locname{
   color:white !important;
 }

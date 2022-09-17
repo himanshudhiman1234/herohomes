@@ -50,9 +50,9 @@ function Index() {
             </div>
             <div className="row g-4">
                 <div className="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div className="team-item rounded overflow-hidden">
+                    <div className="overflow-hidden">
                         <div className="d-flex">
-                            <img className="img-fluid w-75 h-75" src="../images/3room.jpg" alt="" />
+                            <img className="img-fluid w-75 height" src="../images/3room.jpg" alt="" />
                         </div>
                         <div className="p-4">
                             <h5>3 BHK FLATS</h5>
@@ -61,9 +61,9 @@ function Index() {
                     </div>
                 </div>
                 <div className="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div className="team-item rounded overflow-hidden">
+                    <div className=" overflow-hidden">
                         <div className="d-flex">
-                            <img className="img-fluid w-75 h-75" src="../images/roomimage.jpg" alt="" />
+                            <img className="img-fluid w-75 height" src="../images/roomimage.jpg" alt="" />
                           
                         </div>
                         <div className="p-4">

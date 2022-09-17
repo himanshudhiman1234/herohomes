@@ -1,5 +1,4 @@
 import React from 'react'
-
 function Navbar() {
   return (
 
@@ -12,19 +11,16 @@ function Navbar() {
             <div className="col-lg-7 px-5 text-start">
                 <div className="h-100 d-inline-flex align-items-center me-4">
                     <small className="fa fa-map-marker-alt text-primary me-2"></small>
-                    <small className="locname">123 Street, New York, USA</small>
+                    <small className="locname ml-1">Emaar 105 sector central plaza CPM 53 SCO 1st floor the chandigarh realtors </small>
                 </div>
                 
             </div>
             <div className="col-lg-5 px-5 text-end">
                 <div className="h-100 d-inline-flex align-items-center me-4">
                     <small className="fa fa-phone-alt text-primary me-2"></small>
-                    <small className="locname">+012 345 6789</small>
+                    <small className="locname">+91 8950801205</small>
                 </div>
-                <div className="h-100 d-inline-flex align-items-center mx-n2">
-                    <a className="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href=""><i className="fab fa-facebook-f"></i></a>
-                    <a className="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href=""><i class="fa-brands fa-youtube"></i></a>
-                </div>
+  
             </div>
         </div>
     </div>
@@ -37,16 +33,18 @@ function Navbar() {
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        {/* <Link to="/">Home</Link> */}
+
+          <a class="nav-link text-center" href="/">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="/about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Gallery</a>
+          <a class="nav-link" href="/gallery">Gallery</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="/contact">Contact</a>
         </li>
       </ul>
     </div>
