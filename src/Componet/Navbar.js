@@ -35,7 +35,7 @@ function Navbar() {
       <ul class="navbar-nav">
         <li class="nav-item active">
           
-        <Link  class="nav-link text-center"  to="/">Home</Link>
+        <Link  class="nav-link"  to="/">Home</Link>
 
           {/* <a href="/">Home <span class="sr-only">(current)</span></a> */}
         </li>
