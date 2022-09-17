@@ -26,14 +26,15 @@ function Navbar() {
         </div>
     </div>
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light fixed">
-    <img src="/images/logo.png" class="img-responsive" alt="Cinque Terre"  />
-
+    <Link  class="nav-link text-center"  to="/"><img src="/images/logo.png" class="img-responsive" alt="Cinque Terre"  />
+    </Link>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item active">
+          
         <Link  class="nav-link text-center"  to="/">Home</Link>
 
           {/* <a href="/">Home <span class="sr-only">(current)</span></a> */}

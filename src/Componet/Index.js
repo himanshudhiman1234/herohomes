@@ -31,8 +31,8 @@ function Index() {
                         <p><i className="fa fa-check-circle text-primary me-3"></i>Climate Responsive Master Plan sq. feet Clubhouse</p>
                         <p><i className="fa fa-check-circle text-primary me-3"></i>Intelligent Traffic Flow</p>
 
-                        
-                        <a href="" className="btn btn-primary rounded-pill py-3 px-5 mt-3">Call Now</a>
+                        <a className="btn btn-primary rounded-pill py-3 px-5 mt-3" href="tel:8950801205">Call Now</a>
+                        {/* <a href="" className="btn btn-primary rounded-pill py-3 px-5 mt-3"></a> */}
                     </div>
                 </div>
             </div>
