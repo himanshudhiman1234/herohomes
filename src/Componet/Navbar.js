@@ -9,14 +9,7 @@ function Navbar() {
 <>
 <div className="container-fluid bg-dark p-0 foot">
         <div className="row gx-0 d-none d-lg-flex">
-            <div className="col-lg-7 px-5 text-start">
-                <div className="h-100 d-inline-flex align-items-center me-4">
-                    <small className="fa fa-map-marker-alt text-primary me-2"></small>
-                    <small className="locname ml-1"></small>
-                </div>
-                
-            </div>
-            <div className="col-lg-5 px-5 text-end">
+                        <div className="col-lg-5 px-5 text-end">
                 <div className="h-100 d-inline-flex align-items-center me-4">
                     <small className="fa fa-phone-alt text-primary me-2"></small>
                     <small className="locname">+91 8950801205</small>
