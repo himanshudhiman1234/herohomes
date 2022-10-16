@@ -12,7 +12,7 @@ function Navbar() {
             <div className="col-lg-7 px-5 text-start">
                 <div className="h-100 d-inline-flex align-items-center me-4">
                     <small className="fa fa-map-marker-alt text-primary me-2"></small>
-                    <small className="locname ml-1">Emaar 105 sector central plaza CPM 53 SCO 1st floor the chandigarh realtors </small>
+                    <small className="locname ml-1"></small>
                 </div>
                 
             </div>
